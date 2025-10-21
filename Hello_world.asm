@@ -28,6 +28,9 @@ _start:
 ; exit(1)                                 = ?
 ; +++ exited with 1 +++
 ;
+; cat hello_world.txt :
+; Hello world!
+;
 ; Листинг hello_world.lst:
 ;     1                                  global _start
 ;     2
@@ -49,3 +52,5 @@ _start:
 ;    16 0000001C B83C000000                      mov rax, 60
 ;    17 00000021 5F                              pop rdi
 ;    18 00000022 0F05                            syscall
+
+
